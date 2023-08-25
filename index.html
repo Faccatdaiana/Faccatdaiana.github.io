@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULO</title>
+    <link rel="stylesheet" href="estilos\css\style.css">
+</head>
+<body>
+   <main>
+        <header class="profile">
+            <img src="estilos\images\img.jpg" alt="" style="width: 100px; height: auto;">
+            <h1 class="name">Daiana da Silva</h1>
+        </header>
+        <article>
+            <h1 class="section-title"> Histórico Educacional </h1>
+
+            <ul>
+                <li>FACCAT - Faculdades Integradas de Taquara</li>
+                <li>Graduação: Tecnólogo em Sistemas para Internet, cursando</li>
+            </ul>
+        </article>
+        <article>
+            <h1 class="section-title"> Histórico Profissional </h1>
+            <ul>
+                <li>AQ - Infisc - Inteligência em Tecnologia Ltda</li>
+            </ul>
+        </article>
+        <article>
+            <h1 class="section-title"> Cursos complementares </h1>
+            <ul>
+                <li>Assistente administrativo</li>
+                <li>Informática</li>
+                <li>Manutenção de Computadores</li>
+                <li>Testes automatizados - completo em selenium e Java</li>
+                <li>Testes em java para iniciantes</li>
+                <li>Introdução ao Sistema Linux</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </article>
+        <article>
+            <h1 class="section-title"> Histórico Educacional </h1>
+        
+            <ul id="educational-list" class="hidden">
+                <li>FACCAT - Faculdades Integradas de Taquara</li>
+                <li>Graduação: Tecnólogo em Sistemas para Internet, cursando</li>
+            </ul>
+            <button id="visualizar" onclick="redirectToInformacoesPessoais()">Visualizar Informações Pessoais</button>
+            <script>
+                function redirectToInformacoesPessoais() {
+                    window.location.href = "informacoespessoais.html";
+                }
+            </script>                      
+        </article>
+   </main>
+</body>
+</html>
